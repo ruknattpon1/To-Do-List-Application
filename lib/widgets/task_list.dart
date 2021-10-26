@@ -3,7 +3,6 @@ import 'package:todo_list_project/widgets/task_tile.dart';
 import 'package:todo_list_project/models/task.dart';
 
 class TasksList extends StatefulWidget {
-  int a = 12;
   final List<Task> tasks;
 
   TasksList(this.tasks);
